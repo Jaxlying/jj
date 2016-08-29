@@ -21,7 +21,11 @@
         ],
         "psr-4": {
             "App\\": "app/"
-        }
+        },
+        "files": [
+            "lib/string.func.php",
+            "lib/image.func.php"
+        ]
     },
     "autoload-dev": {
         "classmap": [

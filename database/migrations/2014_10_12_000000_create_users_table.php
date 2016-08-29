@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->string('email')->unique();
             $table->string('password');
-            $table->char('sex');
+            $table->enum('sex',array('男','女','保密'));
             $table->string('head');
             $table->timestamps();
         });
